@@ -10,12 +10,12 @@ CREATE TABLE crime (
 	Precinct VARCHAR(100),
 	Sector VARCHAR(30),
 	Beat VARCHAR(30),
-	Neighborhood VARCHAR(100)
+	MCPP VARCHAR(100),
+	100Block VARCHAR(100),
+	Longitude VARCHAR(50),
+	Latitude VARCHAR(50)
 );
 */
 -- replace w your path
 BULK INSERT crime
-FROM 'C:\Users\drose\Downloads\d4\SPD_Crime_Data__2008-Present.csv'
-WITH (FIRSTROW = 2,
-	FIELDTERMINATOR = ','
-	);
+FROM 'C:\Users\drose\Downloads\d4\SPD_Crime_Data__2008-Present.csv';
