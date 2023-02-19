@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #454c5b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(18px + 2vmin);
+  color: white;
+}
+
+.Crime-Stats {
+  font-size: calc(18px + 2vmin);
+  background-color: aliceblue;
+  padding: 10px
+}
+
+.bottom {
+  background-color: aliceblue;
+  font-size: calc(6px + 2vmin);
+  padding: 20px
+}
+
+.description {
+  padding:10px
+}
+
+
+a:hover {
+  color:blueviolet;
+}

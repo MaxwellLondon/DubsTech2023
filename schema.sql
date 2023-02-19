@@ -18,4 +18,4 @@ CREATE TABLE crime (
 */
 -- replace w your path
 BULK INSERT crime
-FROM 'C:\Users\drose\Downloads\d4\SPD_Crime_Data__2008-Present.csv';
+FROM "C:\Users\drose\Downloads\d4\cleanedSPDData.csv";
